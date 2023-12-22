@@ -23,9 +23,8 @@ class AboutJob extends Component {
     apiStatus: apiStatusContants.initial,
   }
 
-  comonentDidMount() {
+  componentDidMount() {
     this.getJobData()
-
   }
 
   getJobData = async () => {
